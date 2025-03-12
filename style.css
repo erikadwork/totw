@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     line-height: 1.6;
@@ -8,7 +8,7 @@ body {
     color: #333;
   }
 
-  /* Content Wrapper */
+
 .wrapper {
     background-color: #ffffff;
     max-width: 1000px;
@@ -18,7 +18,7 @@ body {
 
   .back-to-top {
     text-align: right;
-    margin-bottom: 20px; /* Adjust spacing as needed */
+    margin-bottom: 20px; 
   }
 
   .ordered-lists {
@@ -26,24 +26,24 @@ body {
     justify-content: space-between;
     gap: 20px;
     margin: 20px 0;
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    flex-wrap: wrap; 
   }
   
-  /* Each ordered list container */
+  
   .ordered-list {
     flex: 1;
-    min-width: 300px; /* Ensures a minimum width on smaller screens */
+    min-width: 300px; 
     background: #f8f8f8;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   .ordered-list {
-    /* Ensures the list items are left-aligned */
+   
     text-align: left;
   }
   
-  /* Colored heading for each list */
+ 
   .ordered-list h3 {
     background-color: #605a69;
     color: #fff;
@@ -54,21 +54,21 @@ body {
   }
   
   .ordered-list ol {
-    list-style-position: inside; /* Moves numbers inside the list item's box */
-    padding-left: 1;             /* Remove extra left padding if necessary */
+    list-style-position: inside; 
+    padding-left: 1;             
     margin: 0;
   }
 
   .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
-    margin: 20px auto; 
+    margin: 0px auto; 
     width: 90%; 
     max-width: 1000px; 
   }
   
-  /* Individual gallery items remain the same */
+
   .gallery-item {
     background: #fff;
     border-radius: 5px;
@@ -76,7 +76,7 @@ body {
     text-align: center; 
   }
   
-  /* Image Styling */
+
   .gallery-item img {
     width: 100%; 
     height: auto; 
@@ -85,7 +85,7 @@ body {
   }
   
   
-  /* Caption Styling */
+ 
   .gallery-item p {
     margin: 1px 0 0;
     font-weight: 500;
@@ -97,7 +97,7 @@ body {
   
 
   
-  /* Container for the header block */
+
   .myDiv {
     border: 3px outset #605a69;
     background-color: #fff4fb;
@@ -112,24 +112,29 @@ body {
 
   }
 
- /* Navigation with the logo */
+
 .sitenav {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Ensures items are aligned to the left */
+  justify-content: flex-start;
   background: #645b70;
   padding: 10px;
 }
 
 .sitenav img {
-  width: 150px;         /* Adjust size as needed */
-  margin-left: 30px;  /* Increased space between the logo and the links */
+  width: 175px;        
+  margin-left: 50px; 
+}
+
+
+.sitenav a:first-of-type {
+  margin-left: auto;
 }
 
 .sitenav a {
   color: #fffeff;
   text-decoration: none;
-  margin: 0 20px;      /* More space between each navigation link */
+  margin: 0 20px;     
   font-weight: bold;
 }
 
@@ -138,7 +143,7 @@ body {
 }
 
 
-/* Navigation without the logo (using your existing styles) */
+
 .pagenav {
   padding: 10px;
   text-align: center;
@@ -156,36 +161,36 @@ body {
 }
 
   
-  /* Headings */
-  h1, h2, h4 {
+
+  h1, h2, h3, h4 {
     color: #4e3f64;
     text-align: center;
     margin-top: 20px;
   }
 
- /* Override for links inside h3 */
+
 h4 a {
-    color: #aa52e5;  /* Same desired color for links in h3 */
+    color: #aa52e5; 
   }
   
-  /* Optionally, also target visited/hover/active states */
+
   h4 a:visited,
   h4 a:hover,
   h4 a:active {
     color: #9b6788;
   }
   
-  /* Paragraphs */
+ 
   p {
     margin: 20px auto;
     max-width: 800px;
     padding: 0 10px;
   }
   
-  /* Image Styles */
+
   img {
     display: block;
-    margin: 10px auto;
+    margin: 0px auto;
     border: 2px solid #ccc;
     border-radius: 5px;
   }
@@ -193,7 +198,7 @@ h4 a {
   .item-table {
     border-collapse: collapse;
     width: 80%;
-    margin: 20px auto;
+    margin: 0px auto;
     background: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     
@@ -221,7 +226,7 @@ h4 a {
   }
   
   
-  /* Ordered Lists */
+ 
   ol {
     max-width: 800px;
     margin: 20px auto;
@@ -235,7 +240,7 @@ h4 a {
     margin: 10px 0;
   }
   
-  /* Link Styles */
+
   a {
     color: #605a69;
   }
@@ -246,5 +251,10 @@ h4 a {
 
   html {
     scroll-behavior: smooth;
+  }
+
+  .logo-wrapper img {
+    width: 300px; 
+    height: auto; 
   }
   
